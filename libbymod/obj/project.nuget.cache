@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "w3s+RSymb3Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sagan\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\libbymod\\libbymod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sagan\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
