@@ -1,3 +1,0 @@
-displayName = Libbys Bonus Mod
-author = Libby
-version = 0.1
