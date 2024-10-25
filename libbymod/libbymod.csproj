@@ -12,15 +12,17 @@
 	  <None Remove="Content\Items\Weapons\H2OBomb.png" />
 	  <None Remove="Content\Items\Weapons\H2OBombProjectile.png" />
 	  <None Remove="Content\Items\Weapons\IndianasWhip.png" />
+	  <None Remove="Content\Items\Weapons\WhiteWhale.png" />
+	  <None Remove="Content\Projectiles\GhostHarpoon.png" />
 	  <None Remove="Content\Projectiles\H2OProjectileChain.png" />
 	  <None Remove="Content\Projectiles\IndianasWhipProjectile.png" />
+	  <None Remove="Content\Projectiles\WhiteWhaleProjectile.png" />
 	</ItemGroup>
 
 	<!-- References -->
 	<ItemGroup>
 	  <Folder Include="Common\ItemDropRules\DropConditions\" />
 	  <Folder Include="Content\Dusts\" />
-	  <Folder Include="Content\NPCs\" />
 	  <Folder Include="Assets\" />
 	</ItemGroup>
 

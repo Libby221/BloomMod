@@ -6,13 +6,35 @@ Buffs: {
 }
 
 Items: {
-	IndianasWhip: {
-		DisplayName: Indiana's Whip
-		Tooltip: 4 Summon Tag Damage
+	Weapons: {
+		IndianasWhip: {
+			DisplayName: Indiana's Whip
+			Tooltip: 4 Summon tag damage
+		}
+
+		H2OBomb: {
+			DisplayName: H2O-Bomb
+			Tooltip: ""
+		}
+
+		WhiteWhale: {
+			DisplayName: White Whale
+			Tooltip: ""
+		}
 	}
 
 	H2OBomb: {
-		DisplayName: H2O-Bomb
+		DisplayName: H2 O Bomb
+		Tooltip: ""
+	}
+
+	IndianasWhip: {
+		DisplayName: Indianas Whip
+		Tooltip: ""
+	}
+
+	WhiteWhale: {
+		DisplayName: White Whale
 		Tooltip: ""
 	}
 }
@@ -20,4 +42,6 @@ Items: {
 Projectiles: {
 	IndianasWhipProjectile.DisplayName: Indianas Whip Projectile
 	H2OBombProjectile.DisplayName: H2 O Bomb Projectile
+	WhiteWhaleProjectile.DisplayName: White Whale Projectile
+	GhostHarpoon.DisplayName: Ghost Harpoon
 }
