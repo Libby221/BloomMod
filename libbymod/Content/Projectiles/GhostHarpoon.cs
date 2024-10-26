@@ -14,15 +14,17 @@ namespace libbymod.Content.Projectiles
         public override void SetDefaults()
         {
             base.SetDefaults();
-            Projectile.damage = 10;
+            Projectile.damage = 30;
             Projectile.width = 4;
             Projectile.height = 4;
+            Projectile.alpha = 25;
             Projectile.penetrate = 7;
             Projectile.friendly = true;
             Projectile.DamageType = DamageClass.Ranged;
             Projectile.usesLocalNPCImmunity = true;
             Projectile.localNPCHitCooldown = 12;
             Projectile.ignoreWater = true;
+            Projectile.timeLeft = 30;
         }
         public override void AI()
         {
@@ -40,6 +42,8 @@ namespace libbymod.Content.Projectiles
                 GhostDust = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.Terragrim, 0f, 0f, 100, default, 1.5f);
                 GhostDust.velocity *= 3f;
             }
+
+            SoundEngine.PlaySound(SoundID.Item131, Projectile.position);
         }
     }
 }

@@ -27,8 +27,13 @@ namespace libbymod.Content.Items.Weapons
             // While we're at it, let's make our weapon's stats a bit stronger than the Meowmere, which can be done
             // by using math on each given stat.
 
-            Item.damage = 45; // Makes this weapon's damage double the Meowmere's damage.
-            Item.shootSpeed *= 1.5f; // Makes this weapon's projectiles shoot 25% faster than the Meowmere's projectiles.
+            Item.damage = 49; // Makes this weapon's damage double the Meowmere's damage.
+            Item.shootSpeed *= 1.8f; // Makes this weapon's projectiles shoot 25% faster than the Meowmere's projectiles.
+        }
+
+        public override Vector2? HoldoutOffset()
+        {
+            return new Vector2(-6f, 0f); // Adjust X and Y as needed to bring it closer
         }
     }
 }

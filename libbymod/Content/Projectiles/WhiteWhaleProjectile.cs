@@ -31,7 +31,7 @@ namespace libbymod.Content.Projectiles
             if (target.life <= 0)
             {
                 // Spawn a new projectile with the newly rotated velocity, belonging to the original projectile owner. The new projectile will inherit the spawning source of this projectile.
-                Projectile.NewProjectile(Projectile.InheritSource(Projectile), Projectile.Center, Projectile.velocity / 3, ModContent.ProjectileType<Projectiles.GhostHarpoon>(), Projectile.damage / 3, Projectile.knockBack, Projectile.owner);
+                Projectile.NewProjectile(Projectile.InheritSource(Projectile), Projectile.Center, Projectile.velocity / 3, ModContent.ProjectileType<Projectiles.GhostHarpoon>(), Projectile.damage / 2, Projectile.knockBack, Projectile.owner);
 
                 Projectile GhostHarpoon = Main.projectile[ModContent.ProjectileType<Projectiles.GhostHarpoon>()];
                 GhostHarpoon.rotation = Projectile.rotation;  // Match the primary projectile's rotation
