@@ -3,13 +3,28 @@ Buffs: {
 		DisplayName: Indianas Whip Debuff
 		Description: Mods.libbymod.Buffs.IndianasWhipDebuff.Description
 	}
+
+	VoltaicEelDebuff: {
+		DisplayName: Voltaic Eel Debuff
+		Description: Mods.libbymod.Buffs.VoltaicEelDebuff.Description
+	}
+
+	ShockedDebuff: {
+		DisplayName: Shocked Debuff
+		Description: Mods.libbymod.Buffs.ShockedDebuff.Description
+	}
+
+	ScaredactylBuff: {
+		DisplayName: Scaredactyl Buff
+		Description: Mods.libbymod.Buffs.ScaredactylBuff.Description
+	}
 }
 
 Items: {
 	Weapons: {
 		IndianasWhip: {
 			DisplayName: Indiana's Whip
-			Tooltip: 4 Summon tag damage
+			Tooltip: 4 "summon tag damage"
 		}
 
 		H2OBomb: {
@@ -37,6 +52,36 @@ Items: {
 		DisplayName: White Whale
 		Tooltip: ""
 	}
+
+	VoltaicEel: {
+		DisplayName: Voltaic Eel
+		Tooltip: ""
+	}
+
+	BlackSting: {
+		DisplayName: Black Sting
+		Tooltip: Blessed in five different languages!
+	}
+
+	PixieWitchBanner: {
+		Tooltip: ""
+		DisplayName: Pixie Witch Banner
+	}
+
+	ScaredactylStaff: {
+		DisplayName: Scaredactyl Staff
+		Tooltip: ""
+	}
+
+	FishyWhistle: {
+		DisplayName: Fishy Whistle
+		Tooltip: ""
+	}
+
+	MermaidPendant: {
+		DisplayName: Mermaid Pendant
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -44,6 +89,13 @@ Projectiles: {
 	H2OBombProjectile.DisplayName: H2 O Bomb Projectile
 	WhiteWhaleProjectile.DisplayName: White Whale Projectile
 	GhostHarpoon.DisplayName: Ghost Harpoon
+	PixieWitchProjectile.DisplayName: Pixie Witch Projectile
+	VoltaicEelProjectile.DisplayName: Voltaic Eel Projectile
+	PoisonStream.DisplayName: Poison Stream
+	Scaredactyl.DisplayName: Scaredactyl
+	ScaredactylBone.DisplayName: Scaredactyl Bone
+	AmberShard.DisplayName: Amber Shard
+	LilDukeMinion.DisplayName: Lil Duke Minion
 }
 
 NPCs: {
@@ -61,4 +113,8 @@ NPCs: {
 			Princess_LovesNPC: I like {NPCName}.
 		}
 	}
+
+	PixieWitch.DisplayName: Pixie Witch
+	ForestLynx.DisplayName: Forest Lynx
+	Ocelot.DisplayName: Ocelot
 }

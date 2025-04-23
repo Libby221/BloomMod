@@ -1,6 +1,11 @@
-﻿using libbymod.Content.Projectiles;
+﻿using Humanizer;
+using libbymod.Content.Projectiles;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Newtonsoft.Json.Linq;
+using System.Runtime.Intrinsics.X86;
 using Terraria;
+using Terraria.GameContent.Animations;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;

@@ -46,8 +46,8 @@ namespace libbymod.Content.Projectiles
             return Color.White;
         }
 
-        // In PreDrawExtras, we trick the game into thinking the projectile is actually a Sunfury projectile. After PreDrawExtras, the Terraria code will draw the chain. Drawing the chain ourselves is quite complicated, ExampleAdvancedFlailProjectile has an example of that. Then, in PreDraw, we restore the Projectile.type back to normal so we don't break anything.  
-        public override bool PreDrawExtras()
+// In PreDrawExtras, we trick the game into thinking the projectile is actually a Sunfury projectile. After PreDrawExtras, the Terraria code will draw the chain. Drawing the chain ourselves is quite complicated, ExampleAdvancedFlailProjectile has an example of that. Then, in PreDraw, we restore the Projectile.type back to normal so we don't break anything.  
+public override bool PreDrawExtras()
         {
             Projectile.type = ProjectileID.BlueMoon;
             return base.PreDrawExtras();
